@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: #6E44FF;
+    background-color: #B892FF;
+}
+
+.wrapper h1 {
+    width: 40%;
+    font-size: 40px;
+}
+
+.tags {
+    width: 50%;
+    font-size: 25px;
+}
+
+.tags li {
+    list-style: none;
+    margin: 20px;
+    display: inline-flex;
+}
+
+.pic1 {
+    background-color: black;
+    width: 350px;
+    height: 250px;
+}
+
+.picwrapper img {
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    transition-duration: 1s;
+    transition-property: all;
+
+
+}
+
+.picwrapper img:hover {
+    transform: translateX(-50px) translateY(-50px);
+}
+
+.picwrapper {
+    margin: 100px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.allbigpics {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/15/05/02/girls-1741925_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.text {
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    border: 3px solid #251351;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 20%;
+    padding: 15px;
+    margin: 50px auto;
+    color: #6E44FF;
+
+}
